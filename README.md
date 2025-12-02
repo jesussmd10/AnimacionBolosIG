@@ -94,6 +94,3 @@ Dibujada con `THREE.Shape()`, rotada y recalculada en tiempo real según el áng
 # Autor
 
 Jesús Santacruz Martín-Delgado  
-[GitHub @jesussmd10](https://github.com/jesussmd10)
-
-Trabajo universitario para la asignatura de Informática Gráfica.
