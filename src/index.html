@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <title>Práctica S10 IG</title>
+    <meta charset="UTF-8" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Estilos del HUD (Head-Up Display) */
+      #game-ui {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-family: "Orbitron", sans-serif; /* Fuente espacial */
+        color: #00ffff; /* Cian neón */
+        text-shadow: 0 0 10px #00ffff; /* Resplandor */
+        pointer-events: none;
+        user-select: none;
+
+        /* Fondo estilo cristal */
+        background: rgba(0, 0, 20, 0.6);
+        padding: 20px;
+        border: 2px solid #00ffff;
+        border-radius: 15px;
+        backdrop-filter: blur(5px);
+        min-width: 250px;
+      }
+
+      h1 {
+        margin: 0 0 10px 0;
+        font-size: 24px;
+        border-bottom: 1px solid rgba(0, 255, 255, 0.3);
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      #score-container {
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+
+      #score {
+        font-size: 40px;
+        font-weight: bold;
+        color: #ff00ff; /* Magenta neón para el número */
+        text-shadow: 0 0 15px #ff00ff;
+      }
+
+      #msg {
+        min-height: 30px;
+        font-size: 16px;
+        color: #ffff00; /* Amarillo */
+        margin-bottom: 15px;
+        font-weight: bold;
+      }
+
+      .controls {
+        font-size: 12px;
+        color: #aaaaaa;
+        text-shadow: none;
+        line-height: 1.5;
+      }
+
+      .key {
+        border: 1px solid #aaaaaa;
+        padding: 2px 6px;
+        border-radius: 4px;
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+      }
+    </style>
+
+    <div id="game-ui">
+      <h1>Bolera Espacial</h1>
+      <div id="score-container">PUNTOS: <span id="score">0</span> / 10</div>
+      <div id="msg">LISTO PARA LANZAR</div>
+      <div class="controls">
+        <span class="key">a</span> <span class="key">d</span> APUNTAR<br />
+        <span class="key">ESPACIO</span> LANZAR<br />
+        <span class="key">R</span> REINICIAR
+      </div>
+    </div>
+
+    <!--S10-->
+    <!--script src="script_41_tween.js" type="module"></script-->
+    <!--script src="script_42_tween_cubos.js" type="module"></script-->
+    <!--script src="script_43_tween_record.js" type="module"></script-->
+    <!--script src="script_44_tween_record_audio.js" type="module"></script-->
+    <!--script src="script_45_ammo.js" type="module"></script-->
+    <!--script src="script_46_articulada.js" type="module"></script>
+    <!--script src="script_47_bones.js" type="module"></script-->
+    <script src="script_entregable.js" type="module"></script>
+  </body>
+</html>
