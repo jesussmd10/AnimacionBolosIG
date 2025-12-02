@@ -1,2 +1,0 @@
-# AnimacionBolosIG
-Created with CodeSandbox
